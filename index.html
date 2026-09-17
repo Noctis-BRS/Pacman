@@ -1,13 +1,157 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport", content="width=device-width, initial-scale=1.0">
-        <title>Pac-Man</title>
-        <link rel="stylesheet" href="pacman.css">
-        <script src="pacman.js"></script>
-    </head>
-    <body>
-        <canvas id="board"></canvas>
-    </body>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pac-Man | Nhóm 4 - D23CQPTUD01</title>
+
+    <!-- Dùng chính ảnh Pac-Man của project làm favicon -->
+    <link rel="icon" type="image/png" href="pacmanRight.png">
+
+    <link rel="stylesheet" href="pacman.css">
+    <script src="pacman.js"></script>
+</head>
+
+<body>
+
+    <main class="game-page">
+
+        <!-- ================= HEADER ================= -->
+        <header class="game-header">
+
+            <div class="course-badge">
+                LẬP TRÌNH GAME
+            </div>
+
+            <div class="brand">
+                <img src="pacmanRight.png"
+                     alt="Pac-Man"
+                     class="brand-icon">
+
+                <div>
+                    <h1>PAC-MAN</h1>
+                    <p>Classic Arcade Game</p>
+                </div>
+            </div>
+
+            <div class="project-info">
+                <span>NHÓM 4</span>
+                <span>PHÁT TRIỂN ỨNG DỤNG</span>
+                <span>D23CQPTUD01</span>
+            </div>
+
+        </header>
+
+
+        <!-- ================= GAME ================= -->
+        <section class="game-container">
+
+            <div class="game-topbar">
+                <div>
+                    <span class="status-dot"></span>
+                    GAME READY
+                </div>
+
+                <div>
+                    HTML5 • CSS3 • JAVASCRIPT
+                </div>
+            </div>
+
+            <div class="board-frame">
+                <canvas id="board"></canvas>
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTROLS ================= -->
+        <section class="controls">
+
+            <div class="section-title">
+                HOW TO PLAY
+            </div>
+
+            <div class="control-content">
+
+                <div class="keyboard-guide">
+
+                    <div class="key-row">
+                        <div class="key">↑</div>
+                    </div>
+
+                    <div class="key-row">
+                        <div class="key">←</div>
+                        <div class="key">↓</div>
+                        <div class="key">→</div>
+                    </div>
+
+                </div>
+
+                <div class="instruction">
+
+                    <p>
+                        <strong>MOVE</strong>
+                        Arrow Keys / W A S D
+                    </p>
+
+                    <p>
+                        <strong>GOAL</strong>
+                        Eat all pellets and avoid the ghosts.
+                    </p>
+
+                    <p>
+                        <strong>RESTART</strong>
+                        Press any movement key after Game Over.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECT INFO ================= -->
+        <section class="about-project">
+
+            <div>
+                <span class="about-label">SUBJECT</span>
+                <strong>Lập trình Game</strong>
+            </div>
+
+            <div>
+                <span class="about-label">GROUP</span>
+                <strong>Nhóm 4</strong>
+            </div>
+
+            <div>
+                <span class="about-label">MAJOR</span>
+                <strong>Phát triển ứng dụng</strong>
+            </div>
+
+            <div>
+                <span class="about-label">CLASS</span>
+                <strong>D23CQPTUD01</strong>
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+        <footer>
+            <div>
+                PAC-MAN • GAME PROGRAMMING PROJECT
+            </div>
+
+            <div class="footer-small">
+                Nhóm 4 • D23CQPTUD01 • 2026
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
 </html>
