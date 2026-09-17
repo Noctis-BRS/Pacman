@@ -2,6 +2,10 @@
 
 Bài tập thực hành lập trình game Pacman bằng HTML, CSS và JavaScript.
 
+## 🖼️ Preview
+
+![Pacman Preview](preview.png)
+
 ## 👥 Thông tin nhóm
 
 - **Nhóm:** Nhóm 4
@@ -30,3 +34,5 @@ https://noctis-brs.github.io/Pacman/
 
 ## Tham khảo
 Thực hành theo tutorial Pac-Man JavaScript của Kenny Yip Coding.
+Tutorial:
+https://youtu.be/WxeTMsaSOaA
